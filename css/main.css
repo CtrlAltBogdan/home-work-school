@@ -21,34 +21,35 @@ li p {
 }
 
 .name-6 {
-  color: red;
+  color: #ff0000;
   margin-top: 238px;
   margin-bottom: 313px;
   margin-left: 24px;
-  background-color: #fff;
+  background-color: rgba(250, 250, 250, 0.9);
   padding: 2px 5px;
+  text-shadow: 0 0 1px #ff0000, 0 0 1px #ff0000, 0 0 6px #ff0000;
 }
 
 .name-d {
   color: #a1a1a1;
   background-color: #fafafa;
   padding: 2px 5px;
-
   margin-top: 238px;
   margin-bottom: 313px;
   margin-left: 24px;
+  text-shadow: 0 0 1px #a1a1a1, 0 0 1px #a1a1a1, 0 0 6px #a1a1a1;
 }
 
 .name-c {
   margin-top: 238px;
   margin-bottom: 313px;
   margin-left: 24px;
-
   color: #fcf1a0;
-  background-color: #5d5048;
-
+  background-color: #5d504870;
   padding: 2px 5px;
+  text-shadow: 0 0 2px #fcf1a0, 0 0 2px #fcf1a0, 0 0 6px #fcf1a0;
 }
+
 
 ul li {
   width: 292px;
@@ -59,19 +60,24 @@ ul li {
 
 .card-1 {
   border: 3px #ff0000 solid;
+  box-shadow: 0 0 3px #ff0000, 0 0 6px #ff0000, 0 0 12px #ff0000, 0 0 24px #ff0000;
 }
 
 .card-2 {
   border: 3px #8a8a8a solid;
+  box-shadow: 0 0 3px #8a8a8a, 0 0 6px #8a8a8a, 0 0 12px #8a8a8a, 0 0 24px #8a8a8a;
 }
 
 .card-3 {
   border: 3px #fcf1a0 solid;
+  box-shadow: 0 0 3px #fcf1a0, 0 0 6px #fcf1a0, 0 0 12px #fcf1a0, 0 0 24px #fcf1a0;
 }
 
+
+
 img {
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
 }
 
 h5 {
