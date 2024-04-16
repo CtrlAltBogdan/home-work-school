@@ -78,26 +78,31 @@ h5 {
   color: #3c3c43;
   font-size: 18px;
   font-weight: 500;
-  padding-top: 24px;
-  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-bottom: 24px;
   padding-left: 24px;
 }
 
 .text {
   color: #666;
+  padding-top: 5px;
   font-size: 14px;
   font-weight: 400;
   padding-left: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 5px;
 }
 
-.container {
-  margin-left: auto;
-    margin-right: auto;
+.footer { 
+  display: grid; 
+  place-items: center; 
 }
 
+.footer a {
+  padding: 10px 0px 10px 0px;
+}
 
-.container {
-  max-width: 1200px;
-  width: 100%;
+@media only screen and (max-width: 620px) {
+  .footer {
+    font-size: 15px;
+  }
 }
