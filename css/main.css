@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200..900&display=swap");
+
+body {
+  background-color: #272a2b;
+  font-size: 25px;
+  font-family: "Source Code Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+p {
+  margin-top: 41px;
+  margin-left: 24px;
+  color: rgb(0, 255, 128);
+  font-feature-settings: "clig" off, "liga" off;
+}
+
+li p {
+  position: absolute;
+}
+
+.name-6 {
+  color: red;
+  margin-top: 238px;
+  margin-bottom: 313px;
+  margin-left: 24px;
+  background-color: #fff;
+  padding: 2px 5px;
+}
+
+.name-d {
+  color: #a1a1a1;
+  background-color: #fafafa;
+  padding: 2px 5px;
+
+  margin-top: 238px;
+  margin-bottom: 313px;
+  margin-left: 24px;
+}
+
+.name-c {
+  margin-top: 238px;
+  margin-bottom: 313px;
+  margin-left: 24px;
+
+  color: #fcf1a0;
+  background-color: #5d5048;
+
+  padding: 2px 5px;
+}
+
+ul li {
+  width: 292px;
+  border-radius: 12px;
+  margin: 20px 0px 20px 0px;
+  background: #fff;
+}
+
+.card-1 {
+  border: 3px #ff0000 solid;
+}
+
+.card-2 {
+  border: 3px #8a8a8a solid;
+}
+
+.card-3 {
+  border: 3px #fcf1a0 solid;
+}
+
+img {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+h5 {
+  color: #3c3c43;
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 24px;
+  padding-bottom: 4px;
+  padding-left: 24px;
+}
+
+.text {
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 24px;
+  padding-bottom: 24px;
+}
+
+.container {
+  margin-left: auto;
+    margin-right: auto;
+}
+
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+}
