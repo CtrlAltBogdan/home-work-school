@@ -1,7 +1,4 @@
-@font-face {
-    font-family: SFP;
-    src: url(https://github.com/CtrlAltBogdan/FrontHW/raw/Master/fonts/sf/SFProText-Medium.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
 
 /* Общие стили */
@@ -9,7 +6,7 @@ body {
     height: 100%;
     margin: 0;
     background-color: #eaeaea;
-    font-family: SFP;
+    font-family: "roboto";
     display: flex;
     justify-content: center;
     align-items: center;
