@@ -1,0 +1,41 @@
+body {
+    background-color: #12878a;
+}
+
+.window {
+    margin: 0 auto;
+    max-width: 600px;
+    max-height: 300px;
+    min-width: 200px;
+}
+
+.window-body {
+    font-size: 16px;
+    font-weight: 700;
+    height: 300px;
+}
+
+a:hover {
+    color: purple;
+}
+
+.a {
+    margin-bottom: 3px;
+}
+
+.link a {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.link a::before {
+    content: "";
+    background-image: url(../img/index/retro-github.svg);
+    display: block;
+    height: 70px;
+    width: 70px;
+    padding-bottom: 10px;
+    background-repeat: no-repeat;
+
+    margin: 0 auto;
+}

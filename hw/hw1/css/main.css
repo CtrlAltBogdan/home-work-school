@@ -7,6 +7,12 @@ body {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
+
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
+  display: grid; 
+  place-items: center; 
 }
 
 p {
