@@ -1,37 +1,98 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>portfolio</title>
+    <title>Portfolio</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="https://unpkg.com/98.css" />
     <link rel="stylesheet" href="./css/index.css" />
-    <link rel="shortcut icon" href="./img/index/image.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./img/index/image.png"
+      type="image/x-icon"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <div class="window">
-        <div class="title-bar">
-            <div class="title-bar-text">PORTFOLIO</div>
-            <div class="title-bar-controls">
-              <button aria-label="Minimize"></button>
-              <button aria-label="Maximize"></button>
-              <button aria-label="Close"></button>
-            </div>
-          </div>
-      <div class="window-body">
-        <p>School projects for computer science class</p>
-        <ul>
-            <li><a href="./hw/hw1/index.html">homework 1</a></li>
-            <li><a href="./hw/hw2/index.html">homework 2</a></li>
-        </ul>
+    <div class="window main-window">
+      <div class="title-bar">
+        <div class="title-bar-text">PORTFOLIO</div>
+        <div class="title-bar-controls">
+          <button aria-label="Minimize"></button>
+          <button aria-label="Maximize"></button>
+          <button aria-label="Close"></button>
+        </div>
       </div>
+      <div class="content-container">
+        <nav class="sidebar">
+          <ul>
+            <li><a href="#" onclick="showSection('about')">Projects</a></li>
+            <li><a href="#" onclick="showSection('blog')">Blog</a></li>
+            <li><a href="#" onclick="showSection('contacts')">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="window-body">
+          <section id="about" class="section active">
+            <p class="flash animated-text">
+              School projects for computer science class
+            </p>
+            <ul>
+              <li><a href="./hw/hw1/index.html">homework 1</a></li>
+              <li><a href="./hw/hw2/index.html">homework 2</a></li>
+              <li><a href="https://ctrlaltbogdan.github.io/love-messages/">homework 3</a></li>
+            </ul>
+          </section>
+          <section id="blog" class="section" style="display: none">
+            <p>
+              Projects blog. For detailed reading, go to
+              <a href="./blog.html">a separate blog page</a>.
+            </p>
+          </section>
+          <section id="contacts" class="section" style="display: none">
+            <p>Contact information:</p>
+            <ul>
+              <li>
+                <a href="#" target="_blank">Telegram</a>
+              </li>
+              <li>
+                <a href="https://github.com/CtrlAltBogdan" target="_blank"
+                  >GitHub</a
+                >
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+      <nav class="bottom-nav">
+        <ul>
+          <li><a href="#" onclick="showSection('about')">Projects</a></li>
+          <li><a href="#" onclick="showSection('blog')">Blog</a></li>
+          <li><a href="#" onclick="showSection('contacts')">Contacts</a></li>
+        </ul>
+      </nav>
       <footer>
         <div class="footer-link">
-            <div class="link">
-                <a href="https://github.com/CtrlAltBogdan"_blank" rel="noopener noreferrer"></a>
-              </div>
+          <div class="link">
+            <a
+              href="https://github.com/CtrlAltBogdan"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+          </div>
+        </div>
+        <div class="nyan-cat">
+          <object type="image/svg+xml" data="./img/index/nyancat.svg"></object>
         </div>
       </footer>
     </div>
+    <script>
+      function showSection(id) {
+        var sections = document.querySelectorAll(".section");
+        sections.forEach(function (section) {
+          section.style.display = "none";
+        });
+        document.getElementById(id).style.display = "block";
+      }
+    </script>
   </body>
 </html>
-  
